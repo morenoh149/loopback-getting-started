@@ -4,8 +4,13 @@
     "connector": "memory"
   },
   "psqlDs": {
+    "database": "ytb-demo",
     "name": "psqlDs",
-    "connector": "postgresql",
-    "database": "ytb-demo"
+    "connector": "postgresql"
+  },
+  "mongoDs": {
+    "database": "loopback_getting_started_intermediate",
+    "name": "mongoDs",
+    "connector": "mongodb"
   }
 }
