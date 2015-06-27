@@ -27,5 +27,18 @@
     "type": "",
     "url": ""
   },
-  "description": "loopback-getting-started"
+  "description": "loopback-getting-started",
+  "bundleDependencies": [
+    "async",
+    "compression",
+    "cors",
+    "errorhandler",
+    "loopback",
+    "loopback-boot",
+    "loopback-connector-mongodb",
+    "loopback-connector-postgresql",
+    "loopback-datasource-juggler",
+    "loopback-explorer",
+    "serve-favicon"
+  ]
 }
